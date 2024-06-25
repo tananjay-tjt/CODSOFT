@@ -1,0 +1,35 @@
+print('''
++ sum      
+- sub
+* product
+/ division
+% modulo
+''')
+
+
+val1=int(input("enter first value: "))
+
+val2=int(input("enter second value: "))
+
+opr=input("enter the opr..")
+
+
+if (opr == "+"):
+
+
+    print(val1 + val2)
+elif (opr == "-"):
+
+    print(val1 - val2)
+
+elif (opr == "*"):
+    print(val1 * val2)
+
+elif (opr == "/"):
+    print(val1 / val2)
+
+elif (opr == "%"):
+    print(val1 % val2)
+
+else:
+    print("invalid opr....")
